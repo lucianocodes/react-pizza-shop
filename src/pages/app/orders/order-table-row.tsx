@@ -1,11 +1,7 @@
 import { ArrowRight, Search, X } from 'lucide-react';
 import { Button } from '../../../components/ui/button';
 import { TableCell, TableRow } from '../../../components/ui/table';
-import {
-  Dialog,
-  DialogContent,
-  DialogTrigger,
-} from '../../../components/ui/dialog';
+import { Dialog, DialogTrigger } from '../../../components/ui/dialog';
 import { OrderDetails } from './order-details';
 
 export function OrderTableRow() {
@@ -24,7 +20,7 @@ export function OrderTableRow() {
         </Dialog>
       </TableCell>
       <TableCell className="font-mono text-xs font-medium">
-        768a0s-0snmkla
+        768a0s-2iso
       </TableCell>
       <TableCell className="text-muted-foreground">há 15 minutos</TableCell>
       <TableCell>
