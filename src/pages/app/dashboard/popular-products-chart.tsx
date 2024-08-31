@@ -1,7 +1,6 @@
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from '../../../components/ui/card';
@@ -12,11 +11,11 @@ import { ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { BarChart } from 'lucide-react';
 
 const data = [
-  { product: 'pepperoni', amount: 40 },
+  { product: 'Pepperoni', amount: 40 },
   { product: '4 queijos', amount: 30 },
-  { product: 'mussarela', amount: 20 },
-  { product: 'bacon', amount: 60 },
-  { product: 'portuguesa', amount: 70 },
+  { product: 'Mussarela', amount: 20 },
+  { product: 'Bacon', amount: 60 },
+  { product: 'Portuguesa', amount: 70 },
 ];
 
 const COLORS = [
